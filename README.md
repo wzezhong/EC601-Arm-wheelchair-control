@@ -18,3 +18,12 @@ After copying the code into the JSON file editor, click "Build Module" and click
 
 Our project take advantage of Voice Control feature by letting voice input to actually call the CV module, since that part has not yet finished, the Alexa module shown here is NOT the finnal deliver of our project, instead, it's a simple demo to basically show you the idea how to implement Voice Control into your product. The whole dataset of this module comes from Amazon.com, browse https://developer.amazon.com for more information.
 
+=================================================================================
+
+Button Recognition:
+One of the most important tasks of pressing an elevator button is to identify buttons and recognise the numbers. We achieved this using openCV and pytesseract. 
+1. The file buttonrecognition.py contains the python code for button and number recognition. The image to be tested is passed as an argument.
+2.The above code was tested on three images : button.jpg and el.jpg are images obtained from the internet, lift.jpg is an acutal elevator images clicked for testing.
+3. In order to use the code, download buttonrecognition.py and install pytesseract. Pass the image to be tested as an argument. The image after button and number recognition is saved as result.png with marked areas.
+
+
