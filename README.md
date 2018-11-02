@@ -1,7 +1,7 @@
 # EC601-Arm-wheelchair-control
-EC601 arm wheel control
 
-MATLAB part
+
+## MATLAB part
 In our project, we have finished sprint 2 part. In this part, you can see our code above. We used MATLAB to detect objects. It has two different part for our detection. The first part is using MATLAB code to detect object. In our code, we used MATLAB object detection tools to detect some simple object. When you finish run the ".m" file, you can see our detect target, it is a stop sign. Becuase our project is smart wheelchair, we need to detect handicap sign. In sprint 2, we just achieve some easy function that is why we detect stop sign.
 
 Second, we want to use MATLAB open CV function to give us project some extra function which is lane detection. We want to make our wheelchair automatically drive itself. This function will help people who cannot drive wheelchair in a good way. In this part, we use lane detection function to show two lanes of road and we also add a midline to tell people your wheelchair is driving in a wrong way. At the same time, we add "bird's eye view" function to get a better view direction for our wheelchair.
@@ -10,7 +10,7 @@ Third, for using our code, you need to download two ".m" files which is lane det
 
 =================================================================================
 
-Alexa module
+## Alexa module
 
 In order to test the module, you first need to registrate a developer account for getting access to the Amazon Skill Kit, then copy the code into the JSON file editor, Amazon Skill Kit allows you use AWS Lambda ARN to hold and write your code. So that you don't have to implement any kind of logic code except the interaction module (defined by the JSON file).
 
@@ -20,7 +20,7 @@ Our project take advantage of Voice Control feature by letting voice input to ac
 
 =================================================================================
 
-Button Recognition:
+## Button Recognition:
 One of the most important tasks of pressing an elevator button is to identify buttons and recognise the numbers. We achieved this using openCV and pytesseract. 
 1. The file buttonrecognition.py contains the python code for button and number recognition. The image to be tested is passed as an argument.
 2. The above code was tested on three images : button.jpg and el.jpg are images obtained from the internet, lift.jpg is an acutal elevator images clicked for testing.
