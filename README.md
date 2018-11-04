@@ -1,12 +1,12 @@
 # EC601-Arm-wheelchair-control
 
-
+# Sprint2 part
 ## MATLAB part
-In our project, we have finished sprint 2 part. In this part, you can see our code above. We used MATLAB to detect objects. It has two different part for our detection. The first part is using MATLAB code to detect object. In our code, we used MATLAB object detection tools to detect some simple object. When you finish run the ".m" file, you can see our detect target, it is a stop sign. Becuase our project is smart wheelchair, we need to detect handicap sign. In sprint 2, we just achieve some easy function that is why we detect stop sign.
+In our project, we have finished sprint 2 part. In this part, you can see our different part code above. First part we used MATLAB to detect objects. It has two different part for our detection. The first is using MATLAB code to detect object. In our code, we used MATLAB object detection tools to detect some simple objects. When you finish run the "object_detect.m" file, you can see our detect target, it is a stop sign. Becuase our project is smart wheelchair, we need to detect handicap sign. In sprint 2, we just achieve some easy function that is why we detect stop sign.
 
-Second, we want to use MATLAB open CV function to give us project some extra function which is lane detection. We want to make our wheelchair automatically drive itself. This function will help people who cannot drive wheelchair in a good way. In this part, we use lane detection function to show two lanes of road and we also add a midline to tell people your wheelchair is driving in a wrong way. At the same time, we add "bird's eye view" function to get a better view direction for our wheelchair.
+Second, we want to use MATLAB open CV function to give our project some extra functions which is lane detection. We want to make our wheelchair automatically drive itself. This function will help people who cannot drive wheelchair in a good way. In this part, we use lane detection function to show two lanes of road and we also add a midline to tell people your wheelchair is driving in a wrong way. At the same time, we add "bird's eye view" function to get a better view direction for our wheelchair.
 
-Third, for using our code, you need to download two ".m" files which is lane detection code and another is object detection. Then you can directly run our code in your computer MATLAB program. You will get some pictures of object detection. And you will get a video of lane detection. In the video, the yellow line is midline. At the right up corner of this video, you will get a small window which is "bird's eye view". This two different view from a same camera.
+Third, for using our code, you need to download two "lane_detect.m" files. You need our video to achieve our results which we showed in sprint 2 slides. You can email me to get this video wzezhong@bu.edu. Or you can use any video to replace our video to test our code. Then you can directly run our code in your computer MATLAB program. You will get some pictures of object detection. And you will get a video of lane detection. In the video, the yellow line is midline. At the right up corner of this video, you will get a small window which is "bird's eye view". This two different view from a same camera.
 
 =================================================================================
 
@@ -19,7 +19,7 @@ After copying the code into the JSON file editor, click "Build Module" and click
 Our project take advantage of Voice Control feature by letting voice input to actually call the CV module, since that part has not yet finished, the Alexa module shown here is NOT the finnal deliver of our project, instead, it's a simple demo to basically show you the idea how to implement Voice Control into your product. The whole dataset of this module comes from Amazon.com, browse https://developer.amazon.com for more information.
 
 =================================================================================
-
+# Sprint 3 part
 ## Button Recognition:
 One of the most important tasks of pressing an elevator button is to identify buttons and recognise the numbers. We achieved this using openCV and pytesseract. 
 1. The file buttonrecognition.py contains the python code for button and number recognition. The image to be tested is passed as an argument.
