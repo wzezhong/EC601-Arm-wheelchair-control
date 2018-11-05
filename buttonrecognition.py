@@ -7,6 +7,7 @@ import sys
 
 #Read image passed as argument
 im = sys.argv[1]
+numtodetect = sys.argv[2]
 image = cv2.imread(im)
 
 #Image Processing
@@ -53,8 +54,10 @@ for i,ctr in enumerate(sorted_ctrs):
         num = pt.image_to_string(roi, config="--psm 13, outputbase digits")
         if len(num) > 1:
             continue
-        else:
+        elif(num == numtodetect):
             cv2.putText(image, str(num), (x,y),cv2.FONT_HERSHEY_DUPLEX, 2, (0, 255, 255), 3)
+        else:
+            continue
         #cv2.imwrite("num"+num+'.png'.format(i), roi)
         #cv2.putText(image, str(num), (x,y),cv2.FONT_HERSHEY_DUPLEX, 2, (0, 255, 255), 3)
 
