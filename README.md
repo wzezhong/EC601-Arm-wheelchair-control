@@ -26,6 +26,9 @@ One of the most important tasks of pressing an elevator button is to identify bu
 2. The above code was tested on three images : button.jpg and el.jpg are images obtained from the internet, lift.jpg is an acutal elevator images clicked for testing.
 3. In order to use the code, download buttonrecognition.py and install pytesseract. Pass the image to be tested as an argument. The image after button and number recognition is saved as result.png with marked areas.
 
+## MATLAB Recognition:
+In the MATLAB folder, I create the sprint3 folder. It include the recognition file and a picture which you will need to use. You need to make sure the file and picture in same path. If you cannot run this MATLAB code, you need more MATLAB access for your MATLAB program. Please free to contact us if you want to review our results.
+
 
 # Sprint 4 part
 ## Solidwork Robot Arm design
