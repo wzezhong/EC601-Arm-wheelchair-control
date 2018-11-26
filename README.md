@@ -27,3 +27,8 @@ One of the most important tasks of pressing an elevator button is to identify bu
 3. In order to use the code, download buttonrecognition.py and install pytesseract. Pass the image to be tested as an argument. The image after button and number recognition is saved as result.png with marked areas.
 
 
+# Sprint 4 part
+## Solidwork Robot Arm design
+In the sprint4 folder, you will find all of files about the arm design. Because these are solidwork files, you need download solidwork programs. I got some screenshots for you conconvenient. And there is a video folder which can show you how our arm work. You can just download the video .zip file to watch our resutlts.
+
+
