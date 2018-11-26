@@ -30,10 +30,10 @@ One of the most important tasks of pressing an elevator button is to identify bu
 ## MATLAB Recognition:
 In the MATLAB folder, I create the sprint3 folder. It include the recognition file and a picture which you will need to use. You need to make sure the file and picture in same path. If you cannot run this MATLAB code, you need more MATLAB access for your MATLAB program. Please free to contact us if you want to review our results.
 
-
+=================================================================================
 # Sprint 4 part
 ## Solidwork Robot Arm design
-Author by Zezhong Wang
+# Author by Zezhong Wang
 In the sprint4 folder, you will find all of files about the arm design. Because these are solidwork files, you need download solidwork programs. I got some screenshots for you conconvenient. And there is a video folder which can show you how our arm work. You can just download the video .zip file to watch our resutlts.
 
 
