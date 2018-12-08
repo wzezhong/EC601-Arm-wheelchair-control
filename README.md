@@ -36,4 +36,7 @@ In the MATLAB folder, I create the sprint3 folder. It include the recognition fi
 
 In the sprint4 folder, you will find all of files about the arm design. Because these are solidwork files, you need download solidwork programs. I got some screenshots for you conconvenient. And there is a video folder which can show you how our arm work. You can just download the video .zip file to watch our resutlts.
 
+# Final part
+## Solidwork Robot Arm desgin
 
+According to Professor Osama requirements, I recorded new videos for every part moving. In the sprint4-new video folder.
