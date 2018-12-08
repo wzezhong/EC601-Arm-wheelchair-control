@@ -85,7 +85,7 @@ def detectNumber(image,numtodetect,pathOut):
 
 def convert_images_to_video(dir_name):
   #Using ffmpeg to convert images to video.
-  os.system("ffmpeg -loglevel panic -r 1/2 -i "+dir_name+"/frame%d.jpg -vcodec mpeg4 -y "+"test"+".mp4")
+  os.system("ffmpeg -loglevel panic -r 1/2 -i "+dir_name+"/frame%d.jpg -vcodec mpeg4 -y "+"detected_video"+".mp4")
   create_dir("circles")
   for the_file in os.listdir("circles"):
       file_path = os.path.join("circles", the_file)
