@@ -23,7 +23,7 @@ def create_dir(dir_name):
 
 def detectCircle(circleImage):
   cimg = cv2.cvtColor(circleImage,cv2.COLOR_BGR2GRAY)
-  cv2.imwrite("grey.jpg",cimg)
+  #cv2.imwrite("grey.jpg",cimg)
   circles = cv2.HoughCircles(cimg,cv2.HOUGH_GRADIENT,1,100,
                               param1=50,param2=30,minRadius=3,maxRadius=20)
   if circles is not None:
@@ -39,7 +39,7 @@ def detectNumber(image,numtodetect,pathOut):
   blur = cv2.GaussianBlur(image,(5,5),0)
   gray = cv2.cvtColor(blur,cv2.COLOR_BGR2GRAY)  
   ret,thresh = cv2.threshold(gray,60,255,cv2.THRESH_BINARY_INV) 
-  cv2.imwrite("bw.jpg",thresh)
+  #cv2.imwrite("bw.jpg",thresh)
   kernel = np.ones((10,15), np.uint8)
 
   #Find contours 
