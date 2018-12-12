@@ -1,0 +1,2 @@
+1.	Voice control: For Voice control using Alexa Skills Kit and AWS Lambda function, we build our own interaction module and do not 
+      import any code outside. We are currently publishing our own skill and is now under review from Amazon.
