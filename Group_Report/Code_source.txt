@@ -1,3 +1,5 @@
 1.	Voice control: For Voice control using Alexa Skills Kit and AWS Lambda function, we build our own interaction module and do not import any code outside. We are currently publishing our own skill and is now under review from Amazon.
      
 2.    MATLAB Computer Vision: For MATLAB part, we used MSER function to detect text region, then we used Stroke Width Variation function to remove non-text region, the last step was merge them together. The MATLAB object detecting functions are very nice. They are very efficiency. I think that they are absolutly amazing. I changed some rebuilld some structure of MATLAB function detail which will help me simple code structure and remove some function which nit be used in our project. I designed new parameter for our pictures and make 2 different part together which will show all of contents in our result. 
+
+3.   Solidwork: professional program for mechanical design. Which help us show all of details of our arm. Solidwork are very nice
