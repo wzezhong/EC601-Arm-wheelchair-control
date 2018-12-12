@@ -1,0 +1,71 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "arm control system",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "OpenIntent",
+                    "slots": [],
+                    "samples": [
+                        "open it",
+                        "open the door"
+                    ]
+                },
+                {
+                    "name": "closeIntent",
+                    "slots": [],
+                    "samples": [
+                        "please close the door",
+                        "close it",
+                        "close the door"
+                    ]
+                },
+                {
+                    "name": "ControlIntent",
+                    "slots": [
+                        {
+                            "name": "num",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{num}",
+                        "to floor {num}",
+                        "take me to floor {num}"
+                    ]
+                },
+                {
+                    "name": "StopIntent",
+                    "slots": [],
+                    "samples": [
+                        "wait",
+                        "hold on",
+                        "stall",
+                        "stop"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
