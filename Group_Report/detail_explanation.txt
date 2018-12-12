@@ -1,0 +1,33 @@
+1. Voice control	
+Voice control: Alexa Skills Kit is a Voice User Interface which provides built-in deep learning model. As developer, we create a
+new interaction module by defining intents and fill in utterances and slots which represent the oral instruction that the user might 
+provide. The Alexa Skills Kit then do the deep learning automatically and generate some possible similar syntax, so when the user actually
+interact with the module, it would be more flexible and improve the users experience.
+
+The source, as well as the license of this interaction module is posted in our group Git-Hub reciprocity. The whole Voice control part 
+includes two different modules (one only includes voice-user interact for demo use and one can open a simulation video to show the 
+integrate of different sections), you can find and download them both in Git-Hub.
+
+In our module, we combine Alexa Skills Kit (the interaction module with users, as frontend) with AWS Lambda function (the hosed server,
+as backend) (AWS Lambda is, a cloud base server provides by Amazon that let developer host their code in the cloud, FYI).
+
+Interaction Model (frontend) — Much like the graphical user interface (appearance) of a mobile app, Alexa skills need a Voice User 
+Interface (VUI). We'll refer to the VUI as the interaction model — it defines what functionalities or behaviors the skill is able to handle.
+
+Hosted Service (backend) — The programming logic written in JavaScript, hosted on the internet, that responds to a user's requests. 
+
+When users start to interact using our module, the frontend communicates with the backend using JSON files, the service is set to be 
+triggered by Alexa Skills Kit, whenever the user says something the is sensitive in the intent list (which is actually defined by the 
+developer in the VUI), the frontend sends a JSON file including the request ID, time stamp, request intent type and maybe also some 
+specific value. The Lambda server then receive it and process the key information then sends information back also in the form of a JSON 
+file, which basically includes some URL and phrases that how the module actually interacts with the user.
+
+Alexa might not be the best choice for controlling a smart arm since it has some drawbacks. First and foremost, the whole service is 
+web-based which means the whole thing depends on the Internet and the system will break down without the support of Internet. But that 
+is not as bad as it sounds because nowadays the elevators are not that isolated and is usually WIFI covered, we test our module in 
+elevators in BU. There might be potential latencies but the system works. The second major drawback is this Alexa is mainly designed 
+to provide user service with hardware like Amazon Echo. Thus, most of the functions is useless in our project but also add more complexity 
+if we want to integrate the system as a whole. The main reason we still choose to use this method is because it is available for 
+developers and it’s totally free of charge. And the nice developers’ console makes it relatively easier to implement.
+
+Our interaction module contains basic communication with the user, it can take in instructions including greeting and destination purpose and give feedback properly.
