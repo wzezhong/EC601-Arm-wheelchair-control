@@ -1,7 +1,7 @@
 # EC601-Arm-wheelchair-control
 ## Attention: If you cannot run our MATLAB code, because you don't have MATLAB openCV part access. Please contact us for demo.
 
-# Sprint2 part Author
+# Sprint2 part
 ## MATLAB part
 In our project, we have finished sprint 2 part. In this part, you can see our different part code above. First part we used MATLAB to detect objects. It has two different part for our detection. The first is using MATLAB code to detect object. In our code, we used MATLAB object detection tools to detect some simple objects. When you finish run the "object_detect.m" file, you can see our detect target, it is a stop sign. Becuase our project is smart wheelchair, we need to detect handicap sign. In sprint 2, we just achieve some easy function that is why we detect stop sign.
 
