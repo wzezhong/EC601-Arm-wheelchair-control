@@ -1,22 +1,15 @@
-Voice control	
-Voice control: Alexa Skills Kit is a Voice User Interface which provides built-in deep learning model. As developer, we create a
-new interaction module by defining intents and fill in utterances and slots which represent the oral instruction that the user might 
-provide. The Alexa Skills Kit then do the deep learning automatically and generate some possible similar syntax, so when the user actually
+Voice control	part
+  Voice control: Alexa Skills Kit is a Voice User Interface which provides built-in deep learning model. As developer, we create a
+new interaction module by defining intents and fill in utterances and slots which represent the oral instruction that the user might    provide. The Alexa Skills Kit then do the deep learning automatically and generate some possible similar syntax, so when the user         actually
 interact with the module, it would be more flexible and improve the users experience.
 
-The source, as well as the license of this interaction module is posted in our group Git-Hub reciprocity. The whole Voice control part 
-includes two different modules (one only includes voice-user interact for demo use and one can open a simulation video to show the 
-integrate of different sections), you can find and download them both in Git-Hub.
-
-
 MATLAB Computer Vision Part
-First, the MSER feature detector works well for finding text regions [1]. It works well for text because the consistent color and high contrast of text leads to stable intensity profiles. Use the detectMSERFeatures function to find all the regions within the image and plot these results. Notice that there are many non-text regions detected alongside the text.
-Second, although the MSER algorithm picks out most of the text, it also detects many other stable regions in the image that are not text. You can use a rule-based approach to remove non-text regions. For example, geometric properties of text can be used to filter out non-text regions using simple thresholds. Alternatively, you can use a machine learning approach to train a text vs. non-text classifier. Typically, a combination of the two approaches produces better results [4]. This example uses a simple rule-based approach to filter non-text regions based on geometric properties.
-Third, another common metric used to discriminate between text and non-text is stroke width. Stroke width is a measure of the width of the curves and lines that make up a character. Text regions tend to have little stroke width variation, whereas non-text regions tend to have larger variations.
+  1. First we need upload a picture to our code system.
+  2. Second our code will start process it. It will begin from using MSERfunction to detect text region -> Remove  non-text region -> Mark text content.
+  3. When our code finished, we will show all of step of our processing step. And give the final result of mark picture text content.
+  4. In this project, we use MATLAB function to calculate our regions and mark text content. In our code, do not have so much data.
 
-In this project, we use MATLAB function to calculate our regions and mark text content. In our code, do not have so much data. We just need to upload a picture into our code, then our code will "recognize this picture -> processing this picture -> detect text content -> remove non-text region -> mark text content. So, I think that our data quality according to the quality of picture. And our function maybe not achieve best efficiency. We will make it better in the future. 
-
-Data for Computer Vision:
+Python Computer Vision part:
   1. The code was first developed and tested using elevator images from the internet. 
   2. The code was then tested on elevator images from pictures collected by the team.
   3. We then fed videos of elevators, recorded by the team to develop and test the code.
