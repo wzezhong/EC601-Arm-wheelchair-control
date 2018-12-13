@@ -8,7 +8,7 @@ var handlers = {
     this.emit(':responseReady');
   },
   "closeIntent": function (){
-    this.response.speak("Sure, wait a second.");
+    this.response.speak("Sure, wait a second, I am now closing it.");
     this.emit(':responseReady');
   },
   "LaunchRequest": function () {
@@ -79,6 +79,43 @@ var handlers = {
       this.response.speak("Ok, system processing, we will take you to the nineteenth floor.");
     }
     if (mydestination >19 ) {
+      this.response.speak("Ok, system processing, we will take you to that floor.");
+    }
+    this.emit(':responseReady');
+  },
+    "anotherIntent": function () {
+    var myfloor = this.event.request.intent.slots.anothernum.value;
+    if (myfloor == "first") {
+      this.response.speak("Ok, system processing, we will take you to the first floor.");
+		}
+    if (myfloor == "second") {
+      this.response.speak("Ok, system processing, we will take you to the second floor.");
+    }
+    if (myfloor == "third") {
+      this.response.speak("Ok, system processing, we will take you to the third floor.");
+    }
+    if (myfloor == "fourth") {
+      this.response.speak("Ok, system processing, we will take you to the fourth floor.");
+    }
+    if (myfloor == "fifth") {
+      this.response.speak("Ok, system processing, we will take you to the fifth floor.");
+    }
+    if (myfloor == "sixth") {
+      this.response.speak("Ok, system processing, we will take you to the sixth floor.");
+    }
+    if (myfloor == "seventh") {
+      this.response.speak("Ok, system processing, we will take you to the seventh floor.");
+    }
+    if (myfloor == "eighth") {
+      this.response.speak("Ok, system processing, we will take you to the eighth floor.");
+    }
+    if (myfloor == "ninth") {
+      this.response.speak("Ok, system processing, we will take you to the ninth floor.");
+    }
+    if (myfloor == "tenth") {
+      this.response.speak("Ok, system processing, we will take you to the tenth floor.");
+    }
+    if (myfloor != "first" & myfloor !="second" & myfloor != "third" & myfloor != "fourth" & myfloor != "fifth" & myfloor != "sixth" & myfloor != "seventh" & myfloor != "eighth" & myfloor != "ninth" & myfloor != "tenth"  ) {
       this.response.speak("Ok, system processing, we will take you to that floor.");
     }
     this.emit(':responseReady');
