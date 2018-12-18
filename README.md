@@ -36,7 +36,19 @@ In the MATLAB folder, I create the sprint3 folder. It include the recognition fi
 
 In the sprint4 folder, you will find all of files about the arm design. Because these are solidwork files, you need download solidwork programs. I got some screenshots for you conconvenient. And there is a video folder which can show you how our arm work. You can just download the video .zip file to watch our resutlts.
 
+## Alexa
+
+We updated our Alexa part by re-writing a json file which is in Alexa folder.
+
+## Python
+
+We improve our accuracy for our python code to read a video. We also imporve our code function which will help us improve the recognize button function ability. 
+
 # Final part
 ## Solidwork Robot Arm desgin
 
 According to Professor Osama requirements, I recorded new videos for every part moving. In the sprint4-new video folder.
+
+## All of parts together
+
+We have successfully make our three different parts together. First, we use voice control to let our CV part working. When cv part recognized elevator button, MATLAB will mark all of buttons and calculated themselves location and Python part will when user type a number, it will detect this number loaction then return this number loaction to solidwork arm video to open a corrent video.
